@@ -1,5 +1,28 @@
-build/
+# Build folders
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+
+# Compiled binaries
 *.o
+*.obj
+*.so
+*.dll
+*.dylib
 *.exe
 *.out
+*.a
+*.lib
+
+# Logs and temp
 *.log
+*.tmp
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# macOS junk
+.DS_Store
